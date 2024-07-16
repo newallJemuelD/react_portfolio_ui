@@ -1,0 +1,44 @@
+.home-page-wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar-section {
+    width: 20%;
+    background-color: #f0f0f0;
+}
+
+.main-section {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.appbar-section {
+    flex: 0 0 50px;
+    width: auto;
+    background-color: #f0f0f0;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.content-sections {
+    flex: 0 0 auto; 
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: column;
+}
+
+.section1,
+.section2,
+.section3,
+.section4,
+.section5 {
+    flex: 0 0 200px; 
+    width: auto;
+    background-color: #f0f0f0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
